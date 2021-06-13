@@ -14,13 +14,9 @@
     "paths": {
       "*": ["src/*"],
       "tests": ["tests/*"],
-      "@components/*": ["src/components/*"]
+      "@components/*": ["src/components/*"],
+      "@containers/*": ["src/containers/*"]
     }
   },
-  "exclude": [
-    "node_modules",
-    "babel.config.js",
-    "metro.config.js",
-    "jest.config.js"
-  ]
+  "exclude": ["node_modules", "babel.config.js", "metro.config.js", "jest.config.js"]
 }
